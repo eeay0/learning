@@ -8,9 +8,15 @@ int main(void) {
     char line[1000];
     int len;
 
-    while ((len = getline(line, MAX)) > MIN) {
-        printf("Line size is: %d\n", len);
-        printf("%s", line);
+    while ((len = getline(line, MAX)) > 0) {
+        if (len > MIN) {
+            printf("--------\n");
+            printf("Line size is: %d\n", len);
+            printf("%s", line);
+            printf("--------\n");
+        } else if (len > 1) {
+            printf("shorter than MIN");
+        }
     }
 }
 
