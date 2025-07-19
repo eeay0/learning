@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/sbin/clang",
+      "-std=c23",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wstrict-prototypes",
+      "-Wformat=2",
+      "-Wmissing-prototypes",
+      "-Wvla",
+      "-fstack-protector-strong",
+      "-O3",
+      "-g",
+      "-fsanitize=address,undefined",
+      "-fno-common",
+      "-c",
+      "-o",
+      "out/ex8.o",
+      "ex8.c"
+    ],
+    "directory": "/home/eeay/personal/learning/clang/c_programming_language/chapter1",
+    "file": "/home/eeay/personal/learning/clang/c_programming_language/chapter1/ex8.c",
+    "output": "/home/eeay/personal/learning/clang/c_programming_language/chapter1/out/ex8.o"
+  }
+]
