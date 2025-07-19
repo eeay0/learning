@@ -1,2 +1,2 @@
 # clang
-- 1.9 character arrays.
+- solve 1-24
